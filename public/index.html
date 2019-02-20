@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Open Table</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Istok+Web:400,400i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="openTable.css">
+</head>
+
+<body>
+  <div class="subBox2">
+    <div id="photos"></div>
+
+  </div>
+
+  <div class="subBox2">
+    <div id="reservation"></div>
+  </div>
+
+
+  <div id="menu"></div>
+
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
+  <script src="http://localhost:8888/bundle.js"></script>
+  <script src="http://localhost:3003/bundle.js"></script>
+  <script src="http://localhost:3030/bundle.js"></script>
+
+
+  <script>
+
+    ReactDOM.render(
+      React.createElement(Photos),
+      document.getElementById('photos')
+    );
+
+    ReactDOM.render(
+      React.createElement(Reservations),
+      document.getElementById('reservation')
+    );
+
+    ReactDOM.render(
+      React.createElement(Menu),
+      document.getElementById('menu')
+    );
+
+  </script>
+
+</body>
+
+</html>

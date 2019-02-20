@@ -1,0 +1,27 @@
+{
+  "name": "proxy-tim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/table-for-five/proxy-tim.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/table-for-five/proxy-tim/issues"
+  },
+  "homepage": "https://github.com/table-for-five/proxy-tim#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
