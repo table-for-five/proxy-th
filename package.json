@@ -1,0 +1,22 @@
+{
+  "name": "proxy-tim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/table-for-five/proxy-tim.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/table-for-five/proxy-tim/issues"
+  },
+  "homepage": "https://github.com/table-for-five/proxy-tim#readme"
+}
