@@ -12,25 +12,33 @@
 </head>
 
 <body>
-  <div class="subBox2">
+
+  <div class='container'>
     <div id="photos"></div>
+    <div id="subbox">
+      <div id="overview"></div>
+      <div id="reservation"></div>
+    </div>
+
+
+    <div id="menu"></div>
+
 
   </div>
-
-  <div class="subBox2">
-    <div id="reservation"></div>
-  </div>
-
-
-  <div id="menu"></div>
 
   <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
   <script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
-  <script src="http://localhost:8888/bundle.js"></script>
-  <script src="http://localhost:3003/bundle.js"></script>
-  <script src="http://localhost:3030/bundle.js"></script>
 
+
+  <!-- Reservation -->
+  <script src="http://ec2-18-191-229-0.us-east-2.compute.amazonaws.com/bundle.js"></script>
+  <!-- Menu -->
+  <script src="http://ec2-3-17-28-103.us-east-2.compute.amazonaws.com/bundle.js"></script>
+  <!-- photos -->
+  <script src="http://ec2-18-206-121-61.compute-1.amazonaws.com/bundle.js"></script>
+  <!-- Overview -->
+  <script src="http://ec2-18-191-13-163.us-east-2.compute.amazonaws.com/bundle.js"></script>
 
   <script>
 
@@ -42,6 +50,11 @@
     ReactDOM.render(
       React.createElement(Reservations),
       document.getElementById('reservation')
+    );
+
+    ReactDOM.render(
+      React.createElement(Header),
+      document.getElementById('overview')
     );
 
     ReactDOM.render(
